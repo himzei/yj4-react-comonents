@@ -1,27 +1,13 @@
-import { Box, HStack, Text, VStack } from "@chakra-ui/react";
-import CarouselSlick from "../components/CarouselSlick";
+import { Box, HStack, VStack } from "@chakra-ui/react";
 import TitleImageSkew from "../components/TitleImageSkew";
 import { Helmet } from "react-helmet";
 import Features from "../components/Features";
-import { useQuery } from "react-query";
-import Slider from "react-slick";
-import { settingsComic } from "../lib/slideSettings";
-import ComicContent from "../components/ComicContent";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import SkeletonPage from "../components/SkeletonPage";
 
 AOS.init();
 
 export default function Home() {
-  const { isLoading, data } = useQuery(
-    "comics",
-    async () =>
-      await fetch(
-        `https://gateway.marvel.com:443/v1/public/comics?format=comic&apikey=${process.env.REACT_APP_MARVEL_PUBLIC_KEY}`
-      ).then((res) => res.json())
-  );
-
   return (
     <>
       {/* SEO 최적화를 위한 react-helmet 설정 */}

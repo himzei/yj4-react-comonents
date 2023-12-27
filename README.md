@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# npm install 목록
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## favicon 섦명
 
-## Available Scripts
+- public/favicon.ico
+- https://favicon.io/
 
-In the project directory, you can run:
+## Chakra UI
 
-### `npm start`
+- npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Pretendard-Regular
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- npm install @noonnu/pretendard-regular
+- https://libraries.io/npm/@noonnu%2Fpretendard-regular
 
-### `npm test`
+## react-router-dom
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- npm install react-router-dom
+- https://reactrouter.com/en/main/start/tutorial
 
-### `npm run build`
+## react-icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- npm install react-icons --save
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## react-slick
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- npm install react-slick
+- npm install slick-carousel
+- https://react-slick.neostack.com/docs/get-started
+- import "~slick-carousel/slick/slick.css";
+- import "~slick-carousel/slick/slick-theme.css"
 
-### `npm run eject`
+## react-helmet
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- npm i react-helmet
+- https://www.npmjs.com/package/react-helmet
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## react-query
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- npm i react-query
+- https://tanstack.com/query/v3/docs/react/overview
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## react-multi-carousel
 
-## Learn More
+- npm i react-multi-carousel
+- https://www.npmjs.com/package/react-multi-carousel
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## react multi carousel
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- npm i react-multi-carousel
+- https://www.npmjs.com/package/react-multi-carousel
+- www.junia.ai/react-multi-carousel
 
-### Code Splitting
+## react-native snippet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- https://always-develop.tistory.com/78
+  {
+  "reactfunctionalComponent": {
+  "prefix": "rfc",
+  "body": [
+  "",
+  "export default function ${TM_FILENAME_BASE}() {",
+  " return (",
+  " <div></div>",
+  " )",
+  "}"
+  ],
+  "description": "reactfunctionalComponent"
+  }
+  }
 
-### Analyzing the Bundle Size
+## react query
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- https://tanstack.com/query/v3/docs/react/overview

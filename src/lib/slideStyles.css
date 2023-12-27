@@ -1,0 +1,27 @@
+.next {
+  transform: translateY(-50px);
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: -50px;
+  z-index: 99;
+  text-align: right;
+  line-height: 30px;
+}
+.next:hover {
+  color: black;
+}
+
+.prev {
+  transform: translateY(-50px);
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: -26px;
+  z-index: 99;
+  text-align: left;
+  line-height: 30px;
+}
+.prev:hover {
+  color: black;
+}
